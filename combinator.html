@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combinator</title>
+    <style>
+      body > p {
+        color: red;
+      }
+      div ~ p {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <p>ini contoh</p>
+    <div>
+      <article>
+        <p>Ini dipilih</p>
+      </article>
+      <p>Ini dipilih</p>
+    </div>
+    <p>Ini tidak dipilih</p>
+    <p>Ini tidak dipilih</p>
+    <p>Ini tidak dipilih</p>
+  </body>
+</html>
